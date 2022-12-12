@@ -5,7 +5,7 @@ const express = require("express")
 const app = express()
 const port = 3000
 
-// first route
+// route example
 app.get("/", (req, res) => {
     res.send("Hello Word")
 })
